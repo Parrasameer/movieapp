@@ -1,0 +1,54 @@
+.Banner span {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #31d7a9;
+}
+
+.Banner {
+
+    color: white;
+}
+
+.Banner_header {
+    padding-top: 90px;
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Banner_text {
+    font-size: 23px;
+
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+@media (max-width:600px) {
+    .Banner_header {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .Banner_text {
+        font-size: 15px;
+        text-align: none;
+
+    }
+
+}
+
+@media (max-width:390px) {
+    .Banner_header {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .Banner_text {
+        font-size: 10px;
+        text-align: none;
+
+    }
+
+}

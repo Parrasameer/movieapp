@@ -1,0 +1,140 @@
+.main {
+    color: white;
+    margin-top: 140px;
+    display: flex;
+    /* margin-left: 50px; */
+}
+
+
+.filter {
+    margin-left: 15px;
+    width: 28%;
+
+}
+
+.filter img {
+    width: 100%;
+}
+
+.movies {
+    margin-left: 10px;
+    width: 64%;
+}
+
+.moviesImg img {
+    width: 80%;
+    height: 280px
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.FilterText {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.FilterText p {
+    font-size: xx-large;
+
+
+}
+
+.FilterText span {
+    color: red;
+
+}
+
+.filters {
+    background-color: rgba(20, 20, 83, 0.705);
+
+    margin-bottom: 30px;
+
+
+}
+
+.filtersHeader {
+    padding: 30px 50px 10px 50px;
+    font-size: x-large;
+
+}
+
+.filters_input {
+    padding-left: 50px;
+    padding-bottom: 15px;
+
+
+}
+
+.filters_input label {
+    padding-left: 5px;
+}
+
+.imagewrapper {
+    width: 80%;
+    background-color: rgba(20, 20, 83, 0.705);
+    padding: 20px;
+
+}
+
+.movies .moviesCards {
+    margin-bottom: 10px;
+}
+
+.imagewrapper p {
+    font-size: large;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted whitesmoke;
+}
+
+.imagewrapper .rating {
+    display: flex;
+
+}
+
+.imagewrapper .rating span,
+.imagewrapper .rating img {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+@media (max-width:1142px) {
+    .main {
+        margin-top: 290px;
+    }
+}
+
+@media (max-width:980px) {
+    .filter {
+        display: none;
+    }
+
+    .movies {
+        width: 80%;
+        margin-top: 30px;
+
+        margin-left: 60px;
+    }
+
+
+
+
+}
+
+
+
+@media(max-width:768px) {
+    .movies {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width:600px) {
+    .main {
+        margin-top: 150px;
+    }
+}

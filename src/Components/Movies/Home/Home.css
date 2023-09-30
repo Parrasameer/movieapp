@@ -1,0 +1,20 @@
+.homeContainer {
+
+    height: 530px;
+    padding: 0px 90px;
+    background-image: url("http://pixner.net/boleto/demo/assets/images/banner/banner02.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.MainHomeContainer {
+    height: fit-content;
+    background-color: #001232;
+
+}
+
+@media (max-width:600px) {
+    .homeContainer {
+        padding: 0px;
+    }
+}

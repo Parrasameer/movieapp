@@ -1,0 +1,38 @@
+.mainNavbar {
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 10px !important;
+    background-color: #0a1e5e;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+
+}
+
+.navbar {
+    color: white;
+    --bs-navbar-color: white !important;
+    --bs-navbar-hover-color: white !important;
+    --bs-navbar-active-color: none !important;
+}
+
+
+.navbar_bg {
+    background-color: #0a1e5e !important;
+
+}
+
+.mainNavbar button {
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    margin-left: 20px !important;
+    border-radius: 20px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+
+}
+
+.mainNavbar hr {
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}

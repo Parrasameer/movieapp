@@ -1,0 +1,213 @@
+.wel {
+    color: rgb(71, 206, 71);
+    font-size: 18px;
+}
+
+.wel_text {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 36px;
+    color: white;
+}
+
+.signUpContainer {
+    height: 100vh;
+    background-image: url("https://pixner.net/boleto/demo/assets/images/account/account-bg.jpg");
+    display: flex;
+    justify-content: center;
+
+}
+
+.SignUpHeader {
+    text-align: center;
+
+}
+
+.signUp {
+    width: 40%;
+    padding: 60px 45px;
+    background-color: rgba(68, 90, 153, 0.051);
+    box-shadow: 0px 0px 29.4px 0.6px rgb(0 0 0 / 50%);
+    margin: 80px 0px;
+}
+
+.signUpContainer .mb-3 {
+    color: white !important;
+}
+
+.signUpContainer .form-control {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid gray;
+    background-color: inherit !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+
+
+.signUpContainer .form-control::placeholder {
+    color: blueviolet;
+}
+
+.SignUpInputs p {
+    color: white;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.btn-wrapper .btn-primary {
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    border: none !important;
+    padding: 10px 50px;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+
+.signUpContainer .line {
+
+    color: white !important;
+    display: flex;
+    align-items: center;
+}
+
+.signUpContainer .line hr {
+
+    width: 50%;
+    border-bottom: 2px solid white;
+}
+
+.signUpContainer .line p {
+    margin: 0px 40px;
+}
+
+.loginText {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.imagesLink {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.imagesLink .twitter {
+    padding: 0px 18px;
+}
+
+@media (max-width:788px) {
+    .loginText {
+        font-size: 14px;
+    }
+
+    .wel_text {
+        font-size: 38px;
+        font-weight: 600;
+        margin-bottom: 30px;
+
+
+    }
+
+    .SignUpInputs p {
+        font-size: 14px;
+    }
+
+    .signUp {
+        padding: 50px 25px;
+
+        margin: 60px 0px;
+    }
+}
+
+@media (max-width:734px) {
+
+    .wel_text {
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 30px;
+
+
+    }
+
+    .signUp {
+        width: 60%;
+        margin: 50px 0px;
+        padding: 40px 20px;
+    }
+
+
+}
+
+@media (max-width:638px) {
+
+    .btn-wrapper .btn-primary {
+
+        padding: 10px 30px;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+
+    .signUp {
+        padding: 30px 20px;
+        margin: 40px 0px;
+    }
+
+}
+
+@media (max-width:450px) {
+    .signUp {
+        width: 87%;
+        margin: 20px 0px;
+        padding: 20px 20px;
+
+    }
+
+}
+
+@media (max-height:600px) {
+    .signUpContainer {
+        height: fit-content;
+    }
+}
+
+@media (max-width:352px) {
+    .signUp {
+        width: 95%;
+        margin: 10px 0px;
+        padding: 10px 15px;
+    }
+
+
+}
+
+@media (max-width:700px) {
+    .signUp {
+        width: 75%
+    }
+
+    .loginText {
+        font-size: 12px;
+    }
+
+    .wel_text {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 30px;
+
+
+    }
+}
+
+@media (min-height:820px) {
+    .signUp {
+        margin-top: 60px;
+        padding-top: 70px;
+
+    }
+}

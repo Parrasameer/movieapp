@@ -1,0 +1,21 @@
+.forgetWrapper {
+    color: rgb(88, 88, 241);
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgetWrapper a {
+    text-decoration: none !important;
+}
+
+@media(max-width:461px) {
+    .forgetWrapper {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:400px) {
+    .forgetWrapper {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,403 @@
+.containerWrapper {
+    height: max-content;
+    background-color: #001232;
+}
+
+.container {
+    padding: 80px 60px;
+    display: flex;
+}
+
+.leftContainer {
+
+    width: 63%;
+    color: wheat;
+}
+
+.rightContainer {
+    width: 30%;
+    margin-left: 30px;
+    background-color: hsl(219, 93%, 17%);
+    height: fit-content;
+    color: white;
+
+}
+
+.memberWrapper {
+    background-color: #032055;
+    color: white;
+}
+
+.member {
+    padding: 12px 25px;
+    display: flex;
+}
+
+.member p:first-child {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.member p:nth-child(2) {
+    font-size: 17px;
+    color: #9aace5;
+}
+
+.memberText {
+    width: 88%;
+}
+
+.memberButton {
+    display: flex;
+    align-items: center;
+}
+
+.memberButton a {
+    color: white;
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+
+    border-radius: 20px !important;
+    padding: 7px 15px;
+}
+
+.contactWrapper {
+    margin-top: 30px;
+    background-color: #032055;
+    color: white;
+}
+
+.contact {
+    padding: 20px;
+
+}
+
+.Contactflex {
+    display: flex;
+    margin-top: 30px;
+}
+
+.contact p {
+    width: 50%;
+    border-bottom: 1px solid #11326f;
+    margin-right: 20px;
+}
+
+
+
+.contact h2 {
+    border-bottom: 1px solid #11326f;
+    padding-bottom: 20px;
+}
+
+.contact input {
+    padding-bottom: 10px;
+    border: 0;
+
+    background-color: inherit !important;
+    color: #9aace5;
+
+}
+
+.contact input::placeholder {
+    color: #9aace5;
+}
+
+.contact input:focus {
+    outline: none;
+}
+
+.contact a {
+    color: white;
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+
+    border-radius: 20px !important;
+    padding: 12px 50px;
+}
+
+.promoWrapper {
+    margin-top: 30px;
+    background-color: #032055;
+    color: white;
+}
+
+.paymentWrapper {
+    margin-top: 30px;
+    background-color: #032055;
+    color: white;
+}
+
+.payment {
+    padding: 20px;
+}
+
+.payment h2 {
+    margin-bottom: 20px;
+}
+
+.paymentPhotos {
+    display: flex;
+
+}
+
+.paymentPhotos a {
+    color: white !important;
+}
+
+
+
+.paymentPhoto {
+    border: 1px solid #4441e7;
+    width: fit-content;
+    padding: 13px 10px 0px 14px;
+    margin-right: 30px;
+}
+
+.paymentPhoto img {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.paymentPhotoPaypal {
+    border: 1px solid #4441e7;
+    width: fit-content;
+    padding: 13px 10px 0px 14px;
+    margin-right: 30px;
+
+}
+
+.paymentPhotoPaypal img {
+    padding-top: 10px;
+}
+
+.paymentPhotoPaypal p {
+    padding-top: 9px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.cardDetails {
+    margin-top: 20px;
+}
+
+.cardDetails p {
+    color: #9aace5;
+}
+
+.cardDetails input {
+    background-color: inherit;
+    width: 100%;
+    border: 1px solid #11326f;
+    padding: 17px 10px;
+    color: white;
+    border-radius: 16px;
+
+}
+
+.cardDetails input:focus {
+    outline: none;
+}
+
+.cardSecurity {
+    margin-top: 20px;
+    color: #9aace5;
+    display: flex;
+}
+
+.secure {
+    width: 50%;
+}
+
+.secure input {
+    background-color: inherit;
+
+    border: 1px solid #11326f;
+    padding: 17px 10px;
+    color: white;
+    border-radius: 16px;
+    width: 90%;
+}
+
+.secure input:focus {
+    outline: none;
+}
+
+.secure input::placeholder {
+    color: #9aace5;
+}
+
+.quickPay {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.quickPayText {
+
+    margin-left: 20px;
+}
+
+.quickPayText h6 {
+    font-size: 30px;
+    font-weight: 370;
+}
+
+.makePay {
+    color: white;
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    margin: 14px 10px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 40px;
+}
+
+@media(max-width:1232px) {
+    .memberButton a {
+        padding: 7px 10px;
+    }
+}
+
+@media(max-width:1099px) {
+    .memberButton a {
+        padding: 7px 8px;
+    }
+}
+
+@media(max-width:1073px) {
+    .memberButton a {
+        padding: 7px 7px;
+        font-size: smaller;
+    }
+}
+
+
+
+@media(max-width:990px) {
+    .memberButton a {
+        padding: 9px 16px;
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 80px 60px;
+        display: block;
+    }
+
+    .leftContainer {
+
+        width: 100%;
+        color: wheat;
+    }
+
+    .rightContainer {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+
+    }
+}
+
+@media(max-width:837px) {
+
+    .memberButton a {
+        font-size: 12px;
+        padding: 7px 10px;
+    }
+}
+
+@media(max-width:637px) {
+    .member {
+
+        display: block;
+    }
+
+    .memberText {
+        width: 100%;
+    }
+
+    .memberButton {
+        justify-content: center;
+    }
+
+    .memberButton a {
+        padding: 7px 18px;
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width:550px) {
+    .member p:nth-child(2) {
+        font-size: 15px;
+
+    }
+}
+
+@media(max-width:510px) {
+    .container {
+        padding: 60px 20px;
+
+    }
+
+
+
+    .quickPayText h6 {
+        font-size: 28px;
+
+    }
+}
+
+@media(max-width:440px) {
+    .Contactflex {
+        display: block;
+
+    }
+
+    .contact a {
+
+        padding: 8px 20px;
+    }
+
+}
+
+@media(max-width:440px) {
+    .member p:first-child {
+        font-size: 27px;
+        font-weight: 480;
+    }
+
+}
+
+@media(max-width:407px) {
+    .member p:first-child {
+        font-size: 26px;
+
+    }
+
+    .member p:nth-child(2) {
+        font-size: 14px;
+
+    }
+
+    .quickPayText h6 {
+        font-size: 27px;
+
+    }
+
+}
+
+@media(max-width:407px) {
+    .container {
+        padding: 60px 0px;
+
+    }
+
+}
+
+@media(max-width:355px) {
+    .member p:first-child {
+        font-size: 25px;
+
+    }
+}

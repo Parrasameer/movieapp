@@ -1,0 +1,101 @@
+.booking {
+    padding: 20px 35px;
+}
+
+.booking h4 {
+    border-bottom: 1px solid #9aace5;
+    padding-bottom: 30px;
+}
+
+.movieName {
+    margin-top: 30px;
+}
+
+.movieName span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.movieName p {
+    color: #9aace5;
+    margin-top: 5px;
+}
+
+.location {
+    font-weight: 500;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.location1 {
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.time {
+    color: #9aace5;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.nacho {
+    margin-top: -10px;
+    color: #9aace5 !important;
+}
+
+.food {
+    font-weight: 500;
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+.container {
+    border: 1px solid #11326f;
+}
+
+
+
+.amountText {
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.procced {
+    text-align: center;
+    color: white;
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    margin: 14px 10px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 40px;
+    margin-left: 20%;
+}
+
+@media(max-width:1067px) {
+    .time {
+        font-size: 14px;
+    }
+
+    .amountText {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:990px) {
+    .procced {
+        margin-left: 0px;
+    }
+
+    .proccedbtn {
+        display: flex;
+        justify-content: center;
+    }
+}

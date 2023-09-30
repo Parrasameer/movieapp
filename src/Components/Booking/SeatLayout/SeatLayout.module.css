@@ -1,0 +1,58 @@
+.available {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 8px 14px;
+    background-image: url("https://pixner.net/boleto/demo/assets/images/movie/seat01-free.png");
+}
+
+.selectedSeat {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 8px 14px;
+    background-image: url("https://pixner.net/boleto/demo/assets/images/movie/seat01-booked.png");
+}
+
+
+.seatNo {
+    color: white;
+
+
+    font-size: 12px;
+
+
+}
+
+.seat_line1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+span {
+    color: white;
+}
+
+
+
+/* below available is the father and seatNo is the child so we can use it like this */
+.available:hover .seatNo {
+    visibility: hidden;
+}
+
+.front_seat {
+    display: flex;
+
+}
+
+.front_seat p {
+
+    margin-left: 6px;
+}
+
+@media (max-width:860px) {
+    .horizontal {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}

@@ -1,0 +1,289 @@
+.subscribeWrapper {
+
+    background-image: url("https://pixner.net/boleto/demo/assets/images/newslater/newslater-bg01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    height: fit-content;
+    opacity: 0.9;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -148px;
+
+}
+
+.colour {
+    background-color: #001232;
+    height: 250px;
+}
+
+.container {
+
+    background-color: #032055;
+    padding: 10px 5%;
+
+
+
+
+}
+
+.subscribe p:first-child {
+    font-size: 30px;
+    font-weight: 450;
+    color: #31d7a9;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.subscribe p:nth-child(2) {
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: -13px;
+}
+
+.adressBtn {
+    padding: 11px 48px;
+    /* color: #9aace5; */
+    color: white;
+    border-radius: 20px;
+    border: none;
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+}
+
+.adressInput {
+    border: 1px solid white;
+
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.adressInput input {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 120px 10px 20px;
+
+}
+
+.adressInput input::placeholder {
+    color: white;
+}
+
+.respect {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.footerImgsWrapper {
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 40px;
+}
+
+.footerImgs svg {
+    color: white;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 9px;
+}
+
+.green {
+    color: #31d7a9;
+
+}
+
+.copywrightWrapper {
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+
+.terms a {
+    color: white;
+    margin-right: 5px;
+}
+
+
+
+@media(max-width:875px) {
+    .copywrightWrapper {
+
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .terms {
+        margin-bottom: 15px;
+    }
+
+
+}
+
+@media(max-width:702px) {
+    .copywrightWrapper {
+        font-size: larger;
+    }
+}
+
+@media (max-width:681px) {
+    .subscribe p:first-child {
+        font-size: 25px;
+
+
+    }
+
+    .subscribe p:nth-child(2) {
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .adressInput input {
+        padding: 10px 80px 10px 20px;
+    }
+
+}
+
+@media(max-width:612px) {
+    .adressInput input {
+        padding: 10px 50px 10px 20px;
+    }
+
+    .footerImgsWrapper {
+        display: block;
+        margin-top: -80px;
+        text-align: center;
+    }
+
+    .footerImg {
+        margin-bottom: 20px;
+    }
+
+    .copywrightWrapper {
+        font-size: large;
+    }
+}
+
+@media (max-width:582px) {
+    .adressInput input {
+        padding: 10px 40px 10px 20px;
+    }
+
+    .adressBtn {
+        padding: 11px 35px;
+    }
+
+}
+
+@media(max-width:573px) {
+
+    .copywrightWrapper {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width:546px) {
+    .subscribe p:first-child {
+        font-size: 20px;
+
+
+    }
+
+    .subscribe p:nth-child(2) {
+        font-size: 25px;
+        font-weight: 400;
+
+    }
+
+    .adressInput input {
+        padding: 10px 25px 10px 20px;
+    }
+
+    .respect {
+        font-size: small;
+    }
+
+}
+
+@media(max-width : 532px) {
+    .subscribe p:first-child {
+        font-size: 18px;
+
+
+    }
+
+    .subscribe p:nth-child(2) {
+        font-size: 22px;
+
+    }
+
+    .adressInput input {
+        padding: 10px 0px 10px 20px;
+    }
+
+    .copywrightWrapper {
+        font-size: 14px;
+    }
+
+    .adressBtn {
+        padding: 10px 20px;
+    }
+
+}
+
+@media (max-width:486px) {
+    .subscribe p:first-child {
+        font-size: 16px;
+
+
+    }
+
+    .subscribe p:nth-child(2) {
+        font-size: 20px;
+
+    }
+
+
+
+    .copywrightWrapper {
+        font-size: 12px;
+    }
+
+    .adressBtn {
+        padding: 10px 15px;
+    }
+
+
+
+}
+
+@media (max-width:466px) {
+    .adressBtn {
+        padding: 10px 13px;
+    }
+
+    .respect {
+        font-size: 10px;
+    }
+
+
+}
