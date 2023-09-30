@@ -18,12 +18,13 @@ function TicketPlan() {
 
 
     useEffect(() => {
-        fetch("http://localhost:4000/api/movie/" + id)
+        fetch('/moviesData.json')
             .then((res) => res.json())
             .then(movies => {
                 // ? ThreadPool, MainThread ?
-                setMovies(movies);
-                console.log(movies)
+                const foundMovie = movies.find((item) => item._id === id);
+                setMovies(foundMovie);
+
 
             }).catch((er) => {
                 console.log(er)
@@ -39,15 +40,19 @@ function TicketPlan() {
         { name: 'Paris', code: 'PRS' }
     ];
     useEffect(() => {
-        fetch('http://localhost:4000/api/movie/cinema/' + id)
+        fetch('/movies.json')
             .then((res) => res.json())
-            .then((parsedRes) => {
-                setCinemas(parsedRes)
-                console.log(parsedRes)
-                console.log(id)
+            .then(movies => {
+                // ? ThreadPool, MainThread ?
+                setCinemas(movies)
 
 
+            }).catch((er) => {
+                console.log(er)
             })
+
+
+
     }, [])
     return (
         <div>

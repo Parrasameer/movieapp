@@ -11,14 +11,14 @@ function MovieCard() {
     };
     const [movies, setMovies] = useState([])
     useEffect(() => {
-        fetch("http://localhost:4000/api/movie")
-            .then((res) => res.json())
-            .then(movies => {
-                // ? ThreadPool, MainThread ?
-                setMovies(movies);
-            }).catch((er) => {
-                console.log(er)
+        fetch('/moviesData.json')
+            .then((response) => response.json())
+            .then((data) => {
+                setMovies(data);
             })
+            .catch((error) => {
+                console.error('Error fetching data:', error);
+            });
     }, []
 
     )

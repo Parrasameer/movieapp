@@ -9,12 +9,13 @@ function MovieDetails() {
     const [movies, setMovies] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:4000/api/movie/" + id)
+        fetch('/moviesData.json')
             .then((res) => res.json())
             .then(movies => {
                 // ? ThreadPool, MainThread ?
-                setMovies(movies);
-                console.log(movies)
+                const foundMovie = movies.find((item) => item._id === id);
+                setMovies(foundMovie);
+
 
             }).catch((er) => {
                 console.log(er)

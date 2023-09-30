@@ -1,0 +1,119 @@
+[
+    {
+        "_id": "64061af0ea2b6ba2b7b923e8",
+        "name": "ABC Theatre",
+        "city": "New York",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923ed",
+        "name": "Cinemark",
+        "city": "Chennai",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923ee",
+        "name": "AMC Theatres",
+        "city": "Chennai",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923ef",
+        "name": "Odeon Cinemas",
+        "city": "New York",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923f0",
+        "name": "Palace Cinemas",
+        "city": "New York",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923e9",
+        "name": "Regal Cinemas",
+        "city": "New York",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923ea",
+        "name": "Cinepolis",
+        "city": "Chennai",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923eb",
+        "name": "Vue Cinema",
+        "city": "Manchester",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            }
+        ]
+    },
+    {
+        "_id": "64061af0ea2b6ba2b7b923ec",
+        "name": "PVR Cinemas",
+        "city": "New York",
+        "timings": [
+            {
+                "movie_id": "63f8df1e681a6ce4fe75f87c",
+                "date": "2023-03-08",
+                "time": "12:00 AM",
+                "price": 10.99
+            }
+        ]
+    }
+]
